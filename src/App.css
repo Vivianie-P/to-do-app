@@ -1,38 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Ultra&display=swap");
+
 .App {
-  text-align: center;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+
+	background: linear-gradient(
+		-45deg,
+		#b4a2fb,
+		#ff9fd9,
+		#ffb0b0,
+		#ffd09b,
+		#f5f1a9
+	);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+	display: flex;
+	flex-direction: column;
+	font-size: 45px;
+	margin-bottom: 60px;
+	font-family: "Handlee", cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day-date {
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+	padding: 20px;
+	font-family: "Handlee", cursive;
 }
