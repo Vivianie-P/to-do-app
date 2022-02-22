@@ -18,8 +18,22 @@
 }
 
 .inner-todo-container {
-	max-width: 650px;
 	display: flex;
 	align-items: center;
 	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 700px) {
+	.inner-todo-container {
+		min-width: 350px;
+		width: 350px;
+	}
+
+	.todo-item-container {
+		min-width: 180px;
+	}
+
+	.todo-list {
+		margin-bottom: 50px;
+	}
 }
