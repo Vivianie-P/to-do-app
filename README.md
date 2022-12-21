@@ -1,6 +1,6 @@
-A clean and simple To-Do App
-![Screen Shot 2022-02-22 at 2 56 51 PM](https://user-images.githubusercontent.com/81881081/155235226-3c782345-884b-4b12-98e3-cc09b2e92b73.png)
+# To-Do App
 
+![Screen Shot 2022-02-22 at 2 56 51 PM](https://user-images.githubusercontent.com/81881081/155235226-3c782345-884b-4b12-98e3-cc09b2e92b73.png)
 
 # Getting Started with Create React App
 
